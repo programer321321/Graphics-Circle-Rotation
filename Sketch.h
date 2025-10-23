@@ -55,7 +55,6 @@ private:
         backgroundBrush.setStyle(Qt::CrossPattern);
         drawTool->setBrush(backgroundBrush);
         drawTool->drawRect(0, 0, 600, 600);
-        // bouncing ball program
         QPen pen;
         pen.setColor(Qt::blue);
         pen.setStyle(Qt::DashDotLine);
